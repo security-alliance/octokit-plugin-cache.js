@@ -24,28 +24,28 @@
     "author": "Security Alliance",
     "license": "MIT",
     "devDependencies": {
-        "@octokit/core": "^6.0.0",
-        "@octokit/endpoint": "^10.0.0",
-        "@octokit/request-error": "^6.0.0",
-        "@octokit/tsconfig": "^3.1.0",
-        "@octokit/types": "^13.0.0",
-        "@types/node": "^22.5.5",
-        "esbuild": "^0.23.1",
-        "glob": "^11.0.0",
-        "mocha": "^10.7.3",
-        "prettier": "^3.3.3",
-        "semantic-release-plugin-update-version-in-files": "^1.1.0",
-        "tsx": "^4.19.1",
-        "typescript": "^5.6.2"
+        "@octokit/core": "^7.0.2",
+        "@octokit/endpoint": "^11.0.0",
+        "@octokit/request-error": "^7.0.0",
+        "@octokit/tsconfig": "^4.0.0",
+        "@octokit/types": "^14.1.0",
+        "@types/node": "^24.0.1",
+        "esbuild": "^0.25.5",
+        "glob": "^11.0.3",
+        "mocha": "^11.6.0",
+        "prettier": "^3.5.3",
+        "semantic-release-plugin-update-version-in-files": "^2.0.0",
+        "tsx": "^4.20.3",
+        "typescript": "^5.8.3"
     },
     "peerDependencies": {
-        "@octokit/core": "^6.0.0",
-        "@octokit/endpoint": "^10.0.0",
-        "@octokit/request-error": "^6.0.0",
-        "@octokit/types": "^13.0.0"
+        "@octokit/core": "^7.0.2",
+        "@octokit/endpoint": "^11.0.0",
+        "@octokit/request-error": "^7.0.0",
+        "@octokit/types": "^14.1.0"
     },
     "dependencies": {
-        "lru-cache": "^11.0.1"
+        "lru-cache": "^11.1.0"
     },
     "release": {
         "branches": [
