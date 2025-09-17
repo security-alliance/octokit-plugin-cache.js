@@ -24,28 +24,28 @@
     "author": "Security Alliance",
     "license": "MIT",
     "devDependencies": {
-        "@octokit/core": "^7.0.2",
+        "@octokit/core": "^7.0.4",
         "@octokit/endpoint": "^11.0.0",
         "@octokit/request-error": "^7.0.0",
         "@octokit/tsconfig": "^4.0.0",
-        "@octokit/types": "^14.1.0",
-        "@types/node": "^24.0.1",
-        "esbuild": "^0.25.5",
+        "@octokit/types": "^15.0.0",
+        "@types/node": "^24.5.1",
+        "esbuild": "^0.25.9",
         "glob": "^11.0.3",
-        "mocha": "^11.6.0",
-        "prettier": "^3.5.3",
+        "mocha": "^11.7.2",
+        "prettier": "^3.6.2",
         "semantic-release-plugin-update-version-in-files": "^2.0.0",
-        "tsx": "^4.20.3",
-        "typescript": "^5.8.3"
+        "tsx": "^4.20.5",
+        "typescript": "^5.9.2"
     },
     "peerDependencies": {
-        "@octokit/core": "^7.0.2",
+        "@octokit/core": "^7.0.4",
         "@octokit/endpoint": "^11.0.0",
         "@octokit/request-error": "^7.0.0",
-        "@octokit/types": "^14.1.0"
+        "@octokit/types": "^15.0.0"
     },
     "dependencies": {
-        "lru-cache": "^11.1.0"
+        "lru-cache": "^11.2.1"
     },
     "release": {
         "branches": [
